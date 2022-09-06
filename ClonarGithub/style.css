@@ -1,0 +1,194 @@
+:root{
+    --dark1: #24292F;
+    --dark2: #2A3138;
+    --gray1: #63686E;
+    --gray2: #B5B8BA;
+    --green: #00C652;
+    --dark6: #fff;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+.principal{
+    width: 100%;
+    height: 75px;
+    background: var(--dark1);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* position: fixed;
+    z-index: 99; */
+}
+.menu{
+    width: 80%;
+    height: 75px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu2{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+ul{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; 
+}
+li{
+    color: var(--dark6);
+    list-style: none;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+}
+.login{
+    width: 100%;
+    background: var(--dark2);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+.text{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+.formLogin{
+    display: flex;
+    flex-direction: column;
+    width: 32%;
+    padding: 40px 0px 40px 0px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background: var(--dark6);
+}
+.inputs{
+    width: 80%;
+    height: 40px;
+    margin-bottom: 20px;
+    border-radius: 3px;
+}
+.btn{
+    background: var(--green);
+    color: var(--dark6);
+    border: none;
+    cursor: pointer;
+}
+.project{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.textProject{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.projects{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.conteiner{
+    width: 150px;
+    height: 100px;
+    background: var(--gray2);
+    margin: 20px;
+}
+.imgBotton{
+    width: 100%;
+    background-color: var(--green);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+.titleBottonText{
+    width: 36%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+.paragrafo{
+    text-align: justify;
+    margin-top: 10px;
+}
+.H3title{
+    font-size: 25pt;
+    margin-bottom: 0px;
+}
+.buttonSection{
+    width: 90%;
+    height: 45px;
+    background: var(--gray1);
+    border: none;
+    color: var(--dark6);
+    font-size: 14pt;
+    border-radius: 10px;
+}
+.boxSection{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
+}
+.fast{
+    width: 70%;
+    margin: 10px auto 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.fastsec{
+    width: 70%;
+    margin: 10px auto 0px auto;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-around;
+}
+h5{
+    font-size: 20pt;
+    margin-bottom: 2px;
+}
+.imagemProject{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+.textBox{
+    width: 30%;
+    box-sizing: border-box;
+}
+.TitleColor{
+    color: var(--dark6);
+}
+.ParagraColor{
+    color: var(--dark6);
+    text-align: justify;
+}
